@@ -22,7 +22,8 @@
 }
 .content h2{
     font-size: 50px;
-    color: #db714e;
+    /* color: #db714e; */
+    color: #B88C42;
     text-transform: uppercase;
 }
 .content p{
@@ -30,7 +31,8 @@
     margin: 15px 0;
 }
 .content #btn{
-    background-color: rgb(6, 175, 57);
+    /* background-color: rgb(6, 175, 57); */
+    background-color: #543B2B;
     border: none;
     border-radius: 5px;
     font-weight: 600;
@@ -40,7 +42,9 @@
     cursor: pointer;
 }
 .content #btn:hover{
-    background-color: #068858;
+    /* background-color: #068858; */
+    background-color: #B88C42;
+    font-size: 18px;
     transition: 0.5s ease-in;
 }
 .coffee{
@@ -62,4 +66,25 @@
     padding: 80px 80px;
     background-color: rgba(255, 255, 255, 0);
     border: none;
+}
+.nav-parent{
+   margin-left: 55vh;
+}
+nav{
+    display: flex;
+    float: right;
+}
+nav ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    margin: 10px;
+    padding: 10px;
+}
+nav ul li:hover{
+    color: #B88C42;
+    font-size: large;
+    cursor: pointer;
 }
